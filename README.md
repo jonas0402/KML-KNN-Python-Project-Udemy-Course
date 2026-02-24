@@ -1,2 +1,31 @@
-# KML-KNN-Python-Project-Udemy-Course
-This is another project with python using K- Nearest neighbor to predict a "Target Class". There is no understanding of the dataset but the key of KNN is to use the features, scaled them and predict the target based on the K value given and the proximity between data points. I used sklearn.preprocessing (StandardScaler) to transform and scale the data points and also I used the sklearn.neighbors (KNeighborsClassifier) to fit the the features with the K value given. However, I also created a function that ran K values from 1 to 40 to check the K values producing lower error rates. Then, I re-ran the model with a K value with a lower error rate. 
+# K-Nearest Neighbors (KNN) Classification
+
+Machine learning project using KNN to predict a target class, with hyperparameter tuning to find the optimal K value.
+
+## Overview
+
+Python project implementing K-Nearest Neighbors for classification. Features include data scaling with StandardScaler, model training with various K values, and error rate analysis to identify the optimal K.
+
+## Approach
+
+1. **Feature Scaling** - StandardScaler to normalize features
+2. **Initial Model** - KNN with default K value
+3. **K Optimization** - Tested K values from 1 to 40
+4. **Error Analysis** - Plotted error rates vs K values
+5. **Final Model** - Re-trained with the K value producing the lowest error rate
+
+## Tech Stack
+
+- **Language:** Python (Jupyter Notebook)
+- **Libraries:** Scikit-learn (KNeighborsClassifier, StandardScaler), Pandas, NumPy, Matplotlib, Seaborn
+
+## Getting Started
+
+```bash
+pip install scikit-learn pandas numpy matplotlib seaborn jupyter
+jupyter notebook
+```
+
+## Author
+
+**Jonas** - Data Engineer | St. Louis, MO
